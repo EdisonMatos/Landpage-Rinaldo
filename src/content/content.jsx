@@ -47,8 +47,8 @@ const currentYear = new Date().getFullYear();
 
 const infos = {
   name: "Dr. Rinaldo Machado Dias",
-  email: "contato", // Email desejado pelo cliente
-  domain: "rinaldomachado.com.br", // Sem "www"
+  email: "contatomachadodias", // Email desejado pelo cliente
+  domain: "gmail.com", // Sem "www"
   phone: {
     ddd: "81",
     firstPart: "98744", // Apenas os 5 primeiros números (incluindo o 9)
@@ -105,9 +105,13 @@ const content = {
     },
     hero: {
       miniTag: "ADVOGADO PREVIDENCIÁRIO EM RECIFE - PE",
-      title: <h1 className="mb-[16px]">Conquiste sua aposentadoria</h1>,
+      title: (
+        <h1 className="mb-[16px]">
+          Conquiste sua <span className="text-primary">aposentadoria</span>
+        </h1>
+      ),
       subtitle:
-        "Especialista em regimes próprios de previdência social, cuidando do seu futuro como você merece.",
+        "Especialista em regimes próprios de previdência social (Previdência dos Servidores), cuidando do seu futuro como você merece.",
       ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -216,10 +220,10 @@ const content = {
       miniTag: "QUEM É DR. RINALDO MACHADO DIAS",
       title: "Minha trajetória",
       subtitle:
-        "Formado em Direito pela Universidade Federal de Pernambuco (UFPE), atuando a mais de 15 anos na advocacia previdenciária.",
+        "Formado em Direito pela Universidade Federal de Pernambuco (UFPE), atuando há mais de 15 anos na advocacia previdenciária.",
       paragraph: (
         <div>
-          Meu caminho iniciou-se em 2009 quando finalizei o curso de Direito na
+          Meu caminho se iniciou em 2009, quando finalizei o curso de Direito na
           UFPE e ingressei na jornada da advocacia, inicialmente com o desejo de
           prestar concurso público.
           <br />
@@ -233,13 +237,14 @@ const content = {
         <p>
           <strong>
             Formado em Direito pela Universidade Federal de Pernambuco (UFPE),
-            atuando a mais de 15 anos na advocacia previdenciária.
+            atuando há mais de 15 anos na advocacia previdenciária.
           </strong>
           <br />
           <br />
-          Meu caminho iniciou-se em 2009 quando finalizei o curso de Direito na
+          Meu caminho se iniciou em 2009, quando finalizei o curso de Direito na
           UFPE e ingressei na jornada da advocacia, inicialmente com o desejo de
           prestar concurso público.
+          <br />
           <br />
           No entanto, ao receber a oportunidade de advogar, descobri minha
           verdadeira paixão pela profissão.
@@ -254,8 +259,6 @@ const content = {
           detalhes e desdobramentos que envolvem a situação de cada cliente. Meu
           objetivo é garantir que você se sinta seguro e informado em todas as
           etapas do processo.
-          <br />
-          <br />
           <p>
             Estou aqui para defender seus direitos e proporcionar um atendimento
             humanizado e dedicado, sempre com a seriedade que a advocacia exige.
