@@ -56,7 +56,7 @@ export default function Features() {
 
             <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[32%]">
               <div
-                className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover"
+                className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-primary/0"
                 style={{
                   backgroundImage: `url(${content.texts.features.imgFeatures})`,
                 }}

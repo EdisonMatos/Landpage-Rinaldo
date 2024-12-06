@@ -46,8 +46,8 @@ function FooterSocial({ LightMode }) {
                   <img
                     src={content.texts.navbar.logo.img}
                     alt={content.texts.navbar.logo.alt}
-                    className="max-h-[88px] w-auto bg-white p-[12px]"
-                    // className="w-[60%] tablet1:w-[50%] desktop1:w-[80%]"
+                    // className="max-h-[88px] w-auto bg-white p-[12px]"
+                    className="w-[60%] tablet1:w-[50%] desktop1:w-[80%]"
                   ></img>
                 </div>
               </MotionDivDownToUp>

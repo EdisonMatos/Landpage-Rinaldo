@@ -60,7 +60,7 @@ export default function About() {
             style={{
               backgroundImage: `url(${content.texts.about.imagem.img})`,
             }}
-            className="relative bg-center bg-no-repeat bg-cover h-[450px] w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
+            className="relative bg-center bg-no-repeat bg-cover h-[450px] w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl shadow-custom-opacity shadow-secondary/25"
           >
             <img
               alt="Imagem de efeito pontilhado"

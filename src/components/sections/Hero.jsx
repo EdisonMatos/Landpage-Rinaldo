@@ -16,14 +16,14 @@ const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 export default function Hero() {
   return (
     <div
-      className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-bgSectionDark to-bgSectionDark "
+      className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-black to-bgSectionDark "
       // style={{ backgroundImage: `url(${bgHeroImg})` }}
       id="home"
     >
       <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
         <div className="w-full text-secondary justify-evenly">
           <div className="h-[125px] desktop3:h-[140px]" />
-          <div className="flex flex-col-reverse gap-[40px]  desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[46px] desktop1:pt-[68px] desktop1:pb-[96px]">
+          <div className="flex flex-col-reverse gap-[40px]  desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] tablet1:pt-[46px] desktop1:pt-[68px] desktop1:pb-[96px]">
             <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
               <MotionDivDownToUp>
                 <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4">
@@ -89,25 +89,25 @@ export default function Hero() {
                 </MotionDivLeftToRight>
               </div> */}
             </div>
-            <div className="flex justify-center w-full desktop1:w-[42%] desktop2:w-[42.8%]">
-              <MotionDivDownToUp className="relative flex justify-end w-full ">
+            <div className="flex justify-center w-[90%] desktop1:w-[42%] desktop2:w-[42.8%]">
+              <MotionDivDownToUp className="relative flex justify-end w-full">
                 {/* <img
                   src={imgLaw}
                   alt="Foto de itens do direito"
                   className="bg-red-500 "
                 /> */}
                 <div
-                  className="bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[400px] bg-cover desktop1:bg-center bg-no-repeat"
+                  className="bg-top rounded-xl w-full h-[300px] tablet1:h-[380px] desktop1:h-[400px] bg-cover desktop1:bg-center bg-no-repeat shadow-custom-opacity shadow-bgSectionDark"
                   style={{
                     backgroundImage: `url(${imgLaw})`,
                     backgroundSize: "",
                   }}
                 ></div>
-                <img
+                {/* <img
                   src={imgPoints}
                   alt="Imagem de efeito pontilhado"
                   className="absolute opacity-30 right-[-15px] top-[-20px] desktop3:right-[-40px] desktop3:top-[40px]"
-                ></img>
+                ></img> */}
               </MotionDivDownToUp>
             </div>
           </div>
