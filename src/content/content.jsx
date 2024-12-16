@@ -274,10 +274,17 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A Definir",
-        title: "A Definir",
-        subtitle: "A Definir",
-        paragraph: <p>A Definir</p>,
+        miniTag: "MANTENHA-SE INFORMADO",
+        title: "Conecte-se e acompanhe novidades e atualizações!",
+        subtitle:
+          "⚖️ Esteja sempre por dentro do universo previdenciário seguindo o Dr. Rinaldo Machado nas redes sociais!",
+        paragraph: (
+          <p>
+            Acompanhe nossas postagens e fique atualizado sobre os seus direitos
+            no Direito Previdenciário. Não perca a chance de transformar
+            conhecimento em poder para assegurar sua proteção legal.
+          </p>
+        ),
       },
     },
     cta: {
