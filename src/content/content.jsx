@@ -69,7 +69,7 @@ const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A Definir", // Sem o @
+  instagramProfile: "rinaldo_machado_adv", // Sem o @
   facebookProfile: "A Definir",
   linkeDinProfile: "A Definir",
   whatsappDefaultMessage:
