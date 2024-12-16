@@ -21,7 +21,7 @@ export default function Index() {
       <Hero />
       <Features />
       <About />
-      {/* <AboutInstagram /> */}
+      <AboutInstagram />
       <Cta />
       <Steps />
       <Faq />

@@ -6,7 +6,7 @@ import imgFeatures from "../assets/imgs/features/imgServicesCinza.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImgCinza.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import aboutSocialImg from "../assets/imgs/about/aboutInstagram.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgStepsCinza.jpg";
 
@@ -69,7 +69,7 @@ const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A Definir", // Sem o @
+  instagramProfile: "rinaldo_machado_adv", // Sem o @
   facebookProfile: "A Definir",
   linkeDinProfile: "A Definir",
   whatsappDefaultMessage:
@@ -274,10 +274,17 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A Definir",
-        title: "A Definir",
-        subtitle: "A Definir",
-        paragraph: <p>A Definir</p>,
+        miniTag: "MANTENHA-SE INFORMADO",
+        title: "Conecte-se e acompanhe novidades e atualizações!",
+        subtitle:
+          "⚖️ Esteja sempre por dentro do universo previdenciário seguindo o Dr. Rinaldo Machado nas redes sociais!",
+        paragraph: (
+          <p>
+            Acompanhe nossas postagens e fique atualizado sobre os seus direitos
+            no Direito Previdenciário. Não perca a chance de transformar
+            conhecimento em poder para assegurar sua proteção legal.
+          </p>
+        ),
       },
     },
     cta: {
