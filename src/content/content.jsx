@@ -6,7 +6,7 @@ import imgFeatures from "../assets/imgs/features/imgServicesCinza.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImgCinza.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import aboutSocialImg from "../assets/imgs/about/aboutInstagram.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgStepsCinza.jpg";
 
