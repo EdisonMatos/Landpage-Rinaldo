@@ -145,9 +145,9 @@ const content = {
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Regime Geral de Previdência Social",
+        title: "Regimes Próprios de Previdência Social",
         subtitle:
-          "Orientação e defesa no INSS, planejamento previdenciário, concessão e revisão de benefícios.",
+          "Atuação municipal, estadual e federal, oferecendo planejamento previdenciário, concessão e revisão de benefícios.",
         description: (
           <div>
             A Definir <br />
@@ -161,9 +161,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Regimes Próprios de Previdência Social",
+        title: "Regime Geral de Previdência Social",
         subtitle:
-          "Atuação municipal, estadual e federal, oferecendo planejamento previdenciário, concessão e revisão de benefícios.",
+          "Orientação e defesa no INSS, planejamento previdenciário, concessão e revisão de benefícios.",
         description: (
           <div>
             A Definir <br />
