@@ -52,7 +52,7 @@ const infos = {
   phone: {
     ddd: "81",
     firstPart: "98744", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0867", // Apenas os 4 últimos números
+    secondPart: "0867", // Apenas os 4 últimos número
   },
   endereco: (
     <div>
