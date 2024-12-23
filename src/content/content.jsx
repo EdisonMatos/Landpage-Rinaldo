@@ -47,8 +47,8 @@ const currentYear = new Date().getFullYear();
 
 const infos = {
   name: "Dr. Rinaldo Machado Dias",
-  email: "contatomachadodias", // Email desejado pelo cliente
-  domain: "gmail.com", // Sem "www"
+  email: "contato", // Email desejado pelo cliente
+  domain: "rinaldomachado.com.br", // Sem "www"
   phone: {
     ddd: "81",
     firstPart: "98744", // Apenas os 5 primeiros números (incluindo o 9)
